@@ -1,0 +1,26 @@
+{
+  "name": "dgs-agendamento",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Guilherme de Andrade <guilhermedeandrade@protonmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-specifier-resolution=node src/index.js",
+    "dev": "nodemon --experimental-specifier-resolution=node src/index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1",
+    "node-notifier": "^10.0.0",
+    "ora": "^5.4.1",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "volta": {
+    "node": "15.8.0"
+  }
+}
